@@ -1,5 +1,5 @@
 {
-  "name": "streamjq",
+  "name": "@samooth/streamjq",
   "version": "0.0.10",
   "description": "stream => jq => stream",
   "main": "index.js",
