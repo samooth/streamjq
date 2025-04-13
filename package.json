@@ -1,13 +1,16 @@
 {
   "name": "streamjq",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "stream => jq => stream",
   "main": "index.js",
   "scripts": {
     "install-binary": "node install.js",
     "postinstall": "npm run install-binary"
   },
-  "author": "",
+  "author": "unwriter",
+  "contributors": [
+    "Tomás Díaz <tomas@bsv.direct>"
+  ],
   "license": "ISC",
   "dependencies": {
     "JSONStream": "^1.3.5",
@@ -17,6 +20,6 @@
     "tempfile": "^3.0.0"
   },
   "devDependencies": {
-    "axios": "^0.19.0"
+    "axios": "^0.21.1"
   }
 }
